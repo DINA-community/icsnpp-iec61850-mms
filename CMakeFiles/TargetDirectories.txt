@@ -1,0 +1,13 @@
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/CMakeFiles/edit_cache.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/CMakeFiles/rebuild_cache.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/CMakeFiles/list_install_components.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/CMakeFiles/install.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/CMakeFiles/install/local.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/CMakeFiles/install/strip.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/analyzer/CMakeFiles/MMS.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/analyzer/CMakeFiles/edit_cache.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/analyzer/CMakeFiles/rebuild_cache.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/analyzer/CMakeFiles/list_install_components.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/analyzer/CMakeFiles/install.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/analyzer/CMakeFiles/install/local.dir
+/home/ademus/Dokumente/DINA/ot-parsers/IEC61850/MMS/analyzer/CMakeFiles/install/strip.dir

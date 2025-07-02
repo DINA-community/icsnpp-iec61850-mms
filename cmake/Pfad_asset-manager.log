@@ -1,0 +1,70 @@
+Results for grep -nr "asset-manager" 
+
+# Need change
+./scripts/install.bash:23:chmod +x $HOME/../etc/asset-manager/*.bash
+./scripts/install.bash:141:cp /home/asset-manager/scripts/pg_hba.conf /etc/postgresql/12/main/
+./software/netbox-exporter/main.py:12:sys.path.append('/home/asset-manager/software/asset-discovery/')
+./software/netbox-exporter/main.py:29:with open("/home/asset-manager/site/config.yaml", "r") as stream:
+./software/netbox-exporter/main.py:46:ds_export_filename = "/home/asset-manager/logs/ds-dump.json"
+./software/netbox-exporter/main.py:47:ds_export_findings = "/home/asset-manager/logs/ds-dump-findings.json"
+./software/netbox-exporter/main.py:48:ds_export_L3_communications = "/home/asset-manager/logs/ds-dump-l3_communications.json"
+./software/netbox-exporter/main.py:49:ds_export_L2_communications = "/home/asset-manager/logs/ds-dump-l2-communications.json"
+./etc/asset-discovery/start.bash:19:nohup /usr/bin/python3 asset-discovery/main.py > /home/asset-manager/logs/assetdiscovery.txt &
+./etc/asset-jetconf/start.bash:12:cd /home/asset-manager/software/asset-jetconf
+./etc/asset-jetconf/start.bash:13:/usr/local/bin/jetconf -c /home/asset-manager/software/asset-jetconf/topology-config.yaml &
+./etc/asset-manager/start.bash:11:export PYTHONPATH="${PYTHONPATH}:/home/asset-manager/software/"
+./README.md:110: cd /home/DeviceMgt/etc/asset-manager
+./software/asset-discovery/utilities.py:51:logger.add(os.path.join("/home/asset-manager/logs", asset_discovery['log_file']),
+./software/asset-discovery/assetmgt.py:871:            #        with open('/home/asset-manager/logs/help.txt', 'w') as outfile:
+./software/asset-discovery/datastore.py:28:with open("/home/asset-manager/site/config.yaml", "r") as stream:
+
+
+# unclear
+
+keine
+
+
+
+
+# Unchanged lassen
+./software/asset-discovery/utilities.py:27:asset_manager = conf['asset-manager']
+./software/asset-discovery/main.py:37:asset_manager = conf['asset-manager']
+./software/utils/configReader.py:18:            config = yaml.safe_load(stream)['asset-manager']
+./software/netbox-exporter/main.py:31:asset_manager = conf['asset-manager']
+./site/configPoC.yaml:2:asset-manager:
+./site/configPCAP.yaml:2:asset-manager:
+./software/asset-discovery/datastore.py:30:asset_manager = conf['asset-manager']
+./software/asset-discovery/classifier_interface.py:28:asset_manager = conf['asset-manager']
+./software/asset-discovery/config.yaml:2:asset-manager:
+./software/asset-discovery/assetmgt.py:29:asset_manager = conf['asset-manager']
+./software/asset-discovery/arkime.py:23:asset_manager = conf['asset-manager']
+./software/asset-discovery/testconfig.py:18:test = conf['asset-manager']['asset-discovery']['begin_interval']
+
+# nicht relevant
+./software/netbox-exporter/main.py~:18:sys.path.append('/home/asset-manager/software/asset-discovery/')
+./software/netbox-exporter/main.py~:37:with open("/home/asset-manager/site/config.yaml", "r") as stream:
+./software/netbox-exporter/main.py~:39:asset_manager = conf['asset-manager']
+./software/netbox-exporter/main.py~:49:ds_dump_filename = "/home/asset-manager/logs/export.json"
+./software/netbox-exporter/main.py.old:12:sys.path.append('/home/asset-manager/software/asset-discovery/')
+./software/netbox-exporter/main.py.old:30:with open("/home/asset-manager/site/config.yaml", "r") as stream:
+./software/netbox-exporter/main.py.old:32:asset_manager = conf['asset-manager']
+./software/netbox-exporter/main.py.old:57:ds_export_filename = "/home/asset-manager/logs/ds-dump.json"
+./software/netbox-exporter/main.py.old:58:ds_export_findings = "/home/asset-manager/logs/ds-dump-findings.json"
+./software/netbox-exporter/main.py.old:59:ds_export_services = "/home/asset-manager/logs/ds-dump-services.json"
+./software/netbox-exporter/main.py.old:60:ds_export_communications = "/home/asset-manager/logs/ds-dump-communications.json"
+./software/adaptive-trees/experiments.md:49:  File "/home/asset-manager/software/adaptive-trees/adaptive_trees_baseclass.py", line 176, in listen
+./software/adaptive-trees/experiments.md:51:  File "/home/asset-manager/software/adaptive-trees/adaptive_trees_baseclass.py", line 205, in process_event
+./software/adaptive-trees/experiments.md:53:  File "/home/asset-manager/software/adaptive-trees/utils.py", line 131, in predict
+./software/adaptive-trees/adaptive_trees_baseclass.py:59:            config = yaml.safe_load(stream)['asset-manager']
+./software/macdetect/database/backup/official-cpe-dictionary_v2.3.xml:162362:      <reference href="http://software.dell.com/products/asset-manager/">Vendor website</reference>
+./software/macdetect/database/backup/official-cpe-dictionary_v2.3.xml:409598:      <reference href="http://www.mcafee.com/us/resources/misc/guides/asset-manager-deployment-guide.pdf">deployment guide</reference>
+./etc/macdetect/kill.bash:13:kill -n 15 `cat /home/asset-manager/site/macDetect.pid`
+./etc/adaptive-trees/kill.bash:13:kill -n 15 `cat /home/asset-manager/site/adaptive_trees.pid`
+./etc/adaptive-trees/kill.bash:14:kill -n 15 `cat /home/asset-manager/site/adaptive_trees_dns.pid`
+./etc/adaptive-trees/kill.bash:15:kill -n 15 `cat /home/asset-manager/site/adaptive_trees_ntp.pid`
+./etc/adaptive-trees/kill.bash:16:# kill -n 15 `cat /home/asset-manager/site/adaptive_trees_example.pid`
+./etc/rat/kill.bash:13:kill -n 15 `cat /home/asset-manager/site/rat_conn.pid`
+./etc/nedclass/kill.bash:13:kill -n 15 `cat /home/asset-manager/site/nedclass.pid`
+./software/rat/utils.py:56:        root_path: Path to asset-manager
+./software/nedclass/main.py:16:ROOT_DIR = "/home/asset-manager/"
+./software/nedclass/main.py:22:    config = yaml.safe_load(stream)["asset-manager"]
