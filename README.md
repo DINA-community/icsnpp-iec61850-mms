@@ -2,6 +2,8 @@
 
 IEC 61850-8-1 (MMS) Parser - Communication networks and systems for power utility automation: Mappings to MMS (ISO 9506-1 and ISO 9506-2).
 
+> :exclamation:Note: This parser is **outdated**. Please find the current parser [icsnpp-mms](https://github.com/DINA-community/icsnpp-mms). Fully explanation why this parser is more capable see [zeek discussion](https://github.com/zeek/zeek/discussions/4752#discussioncomment-14286919).
+
 ## Overview
 
 IEC61850_MMS is a Zeek plugin (written in [Spicy](https://docs.zeek.org/projects/spicy/en/latest/)) for parsing and logging fields used by the IEC 61850-8-1 (MMS) protocol as presented in the standard IEC 61850-8-1 and ISO 9506-2, defining a transmission format for exchanging time-critical and non-time-critical data through local-area networks by mapping ACSI to MMS frames.
